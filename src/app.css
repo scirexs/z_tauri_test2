@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  :root {
+    --color-canvas: #000;
+    --color-active: #000;
+    --color-inactive: #000;
+    --color-charline: #000;
+    --color-invalid: #000;
+  }
+  html {
+    font-family: system-ui, ui-sans-serif, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Meiryo", sans-serif;
+  }
+  body {
+    background-color: var(--color-canvas);
+  }
